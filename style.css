@@ -1,0 +1,75 @@
+:root {
+    --color-primary: #ff7b02;
+    --color-primary-variant: #e5a55d;
+    --color-bg-1: #140021;
+    --color-bg-2: #000;
+    --color-bg-3: darkslategray;
+    --color-bg-4: #36005a;
+    --color-light: #333;
+    --color-white: hsl(0, 0%, 90%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wa {
+    color: green;
+}
+
+.ig {
+    color: crimson;
+}
+
+.fb {
+    color: blue;
+}
+
+
+.container i {
+    color: #FFF;
+}
+
+nav {
+    background-color: var(--color-bg-2);
+}
+
+body {
+    background: var(--color-bg-2);
+}
+
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: var(--color-bg-3);
+    color: #FFF;
+}
+
+.caoi {
+    text-transform: capitalize;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--color-white);
+}
+
+img {
+    width: 200px;
+    border: var(--color-light);
+}
+
+
+#projects {
+    background: var(--color-bg-4)
+}
+
+.card {
+    background-color: var(--color-bg-3);
+}
+
+section {
+    padding-top: 5rem;
+}
+
